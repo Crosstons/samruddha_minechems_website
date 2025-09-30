@@ -11,12 +11,12 @@ const NewsLatterBox = () => {
           <div>
             <h4 className="mb-2 font-semibold text-black">Registered Office:</h4>
             <p className="text-sm">
-              6th Floor, 'A' Block, Shivsagar Estate,<br />
+              6th Floor, &apos;A&apos; Block, Shivsagar Estate,<br />
               Dr. Annie Besant Road, Worli,<br />
               Mumbai - 400018
             </p>
           </div>
-          
+
           <div>
             <h4 className="mb-2 font-semibold text-black">Email:</h4>
             <p className="text-sm">
@@ -25,7 +25,7 @@ const NewsLatterBox = () => {
               </a>
             </p>
           </div>
-          
+
           <div>
             <h4 className="mb-2 font-semibold text-black">Phone:</h4>
             <p className="text-sm">
@@ -34,13 +34,13 @@ const NewsLatterBox = () => {
               </a>
             </p>
           </div>
-          
+
           <div>
             <h4 className="mb-2 font-semibold text-black">Follow Us:</h4>
             <p className="text-sm">
-              <a 
-                href="https://www.linkedin.com/company/samruddha-minechem-private-limited/?viewAsMember=true" 
-                target="_blank" 
+              <a
+                href="https://www.linkedin.com/company/samruddha-minechem-private-limited/?viewAsMember=true"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >

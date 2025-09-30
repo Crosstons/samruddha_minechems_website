@@ -20,7 +20,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color">
-                  Samruddha Minechem is dedicated to solving India's phosphate challenge through sustainable mining practices, community development, and forward integration into phosphate-based products.
+                  Samruddha Minechem is dedicated to solving India&apos;s phosphate challenge through sustainable mining practices, community development, and forward integration into phosphate-based products.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -99,7 +99,7 @@ const Footer = () => {
                   </li>
                   <li className="mb-4 text-base text-body-color">
                     <span className="font-semibold">Address:</span><br />
-                    6th Floor, 'A' Block, Shivsagar Estate,<br />
+                    6th Floor, &apos;A&apos; Block, Shivsagar Estate,<br />
                     Dr. Annie Besant Road, Worli,<br />
                     Mumbai - 400018
                   </li>

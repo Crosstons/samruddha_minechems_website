@@ -13,7 +13,7 @@ const WhatIsRockPhosphate = () => {
                   What is Rock Phosphate?
                 </h1>
                 <p className="mb-12 text-base leading-relaxed text-body-color sm:text-lg md:text-xl">
-                  Understanding the foundation of modern agriculture and India's path to phosphate self-reliance.
+                  Understanding the foundation of modern agriculture and India&apos;s path to phosphate self-reliance.
                 </p>
               </div>
             </div>
@@ -36,7 +36,7 @@ const WhatIsRockPhosphate = () => {
 
                 <div className="mb-8">
                   <h3 className="mb-4 text-xl font-bold text-black">
-                    Global Demand & India's Challenge
+                    Global Demand & India&apos;s Challenge
                   </h3>
                   <p className="mb-4 text-base leading-relaxed text-body-color">
                     According to the Food and Agriculture Organization (FAO), global demand for phosphatic fertilizers is expected to rise steadily over the next decade, driven by population growth and the need for higher agricultural productivity.
@@ -64,13 +64,13 @@ const WhatIsRockPhosphate = () => {
 
                 <div className="rounded-lg bg-primary/10 p-6">
                   <h3 className="mb-4 text-xl font-bold text-black">
-                    India's Strategic Imperative
+                    India&apos;s Strategic Imperative
                   </h3>
                   <p className="mb-4 text-base leading-relaxed text-body-color">
-                    For India, developing a strong domestic rock phosphate mining and processing ecosystem is a strategic necessity. By harnessing its own reserves and forward-integrating into phosphoric acid and fertilizer production, India can reduce import dependence, secure farmers' access to essential nutrients, and achieve true Atmanirbharta in this critical sector.
+                    For India, developing a strong domestic rock phosphate mining and processing ecosystem is a strategic necessity. By harnessing its own reserves and forward-integrating into phosphoric acid and fertilizer production, India can reduce import dependence, secure farmers&apos; access to essential nutrients, and achieve true Atmanirbharta in this critical sector.
                   </p>
                   <p className="text-base leading-relaxed text-body-color font-semibold">
-                    At Samruddha Minechem, we are committed to solving India's phosphate problem by unlocking value from indigenous reserves and building a robust phosphate-based ecosystem that ensures sustainable growth for agriculture and food security.
+                    At Samruddha Minechem, we are committed to solving India&apos;s phosphate problem by unlocking value from indigenous reserves and building a robust phosphate-based ecosystem that ensures sustainable growth for agriculture and food security.
                   </p>
                 </div>
               </div>

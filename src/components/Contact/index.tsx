@@ -15,7 +15,7 @@ const Contact = () => {
                 Get in Touch with Samruddha Minechem
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Ready to partner with us in solving India's phosphate challenge? Contact our team for business inquiries, partnerships, or more information about our operations.
+                Ready to partner with us in solving India&apos;s phosphate challenge? Contact our team for business inquiries, partnerships, or more information about our operations.
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
