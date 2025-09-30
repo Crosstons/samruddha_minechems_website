@@ -1,40 +1,64 @@
 "use client";
 
-import { useTheme } from "next-themes";
-
 const NewsLatterBox = () => {
-  const { theme } = useTheme();
-
   return (
-    <div className="shadow-three dark:bg-gray-dark relative z-10 rounded-xs bg-white p-8 sm:p-11 lg:p-8 xl:p-11">
-      <h3 className="mb-4 text-2xl leading-tight font-bold text-black dark:text-white">
-        Subscribe to receive future updates
+    <div className="shadow-three relative z-10 rounded-xs bg-white p-8 sm:p-11 lg:p-8 xl:p-11">
+      <h3 className="mb-4 text-2xl leading-tight font-bold text-black">
+        Contact Information
       </h3>
-      <p className="border-body-color/25 text-body-color mb-11 border-b pb-11 text-base leading-relaxed dark:border-white/25">
-        Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare
-        massa quis lectus.
-      </p>
+      <div className="border-body-color/25 text-body-color mb-11 border-b pb-11 text-base leading-relaxed">
+        <div className="space-y-4">
+          <div>
+            <h4 className="mb-2 font-semibold text-black">Registered Office:</h4>
+            <p className="text-sm">
+              6th Floor, 'A' Block, Shivsagar Estate,<br />
+              Dr. Annie Besant Road, Worli,<br />
+              Mumbai - 400018
+            </p>
+          </div>
+          
+          <div>
+            <h4 className="mb-2 font-semibold text-black">Email:</h4>
+            <p className="text-sm">
+              <a href="mailto:yash.parikh@samruddha.in" className="text-primary hover:underline">
+                yash.parikh@samruddha.in
+              </a>
+            </p>
+          </div>
+          
+          <div>
+            <h4 className="mb-2 font-semibold text-black">Phone:</h4>
+            <p className="text-sm">
+              <a href="tel:+912266619000" className="text-primary hover:underline">
+                +91 22 66619000
+              </a>
+            </p>
+          </div>
+          
+          <div>
+            <h4 className="mb-2 font-semibold text-black">Follow Us:</h4>
+            <p className="text-sm">
+              <a 
+                href="https://www.linkedin.com/company/samruddha-minechem-private-limited/?viewAsMember=true" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                LinkedIn
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
       <div>
-        <input
-          type="text"
-          name="name"
-          placeholder="Enter your name"
-          className="border-stroke text-body-color focus:border-primary dark:text-body-color-dark dark:shadow-two dark:focus:border-primary mb-4 w-full rounded-xs border bg-[#f8f8f8] px-6 py-3 text-base outline-hidden dark:border-transparent dark:bg-[#2C303B] dark:focus:shadow-none"
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Enter your email"
-          className="border-stroke text-body-color focus:border-primary dark:text-body-color-dark dark:shadow-two dark:focus:border-primary mb-4 w-full rounded-xs border bg-[#f8f8f8] px-6 py-3 text-base outline-hidden dark:border-transparent dark:bg-[#2C303B] dark:focus:shadow-none"
-        />
-        <input
-          type="submit"
-          value="Subscribe"
-          className="bg-primary shadow-submit hover:bg-primary/90 dark:shadow-submit-dark mb-5 flex w-full cursor-pointer items-center justify-center rounded-xs px-9 py-4 text-base font-medium text-white duration-300"
-        />
-        <p className="text-body-color dark:text-body-color-dark text-center text-base leading-relaxed">
-          No spam guaranteed, So please don’t send any spam mail.
-        </p>
+        <h4 className="mb-4 font-semibold text-black">Key Clients:</h4>
+        <ul className="space-y-2 text-sm text-body-color">
+          <li>• Gujarat State Fertilizers & Chemicals (GSFC)</li>
+          <li>• Aarti Industries Limited</li>
+          <li>• Panoli Intermediates</li>
+          <li>• Krishna Phoschem Limited</li>
+          <li>• Agro Phos India Limited</li>
+        </ul>
       </div>
 
       <div>
@@ -61,12 +85,12 @@ const NewsLatterBox = () => {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                   stopOpacity="0.62"
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -97,12 +121,12 @@ const NewsLatterBox = () => {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                   stopOpacity="0.62"
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -133,12 +157,12 @@ const NewsLatterBox = () => {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                   stopOpacity="0.62"
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -187,11 +211,11 @@ const NewsLatterBox = () => {
               >
                 <stop
                   offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -205,11 +229,11 @@ const NewsLatterBox = () => {
               >
                 <stop
                   offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -223,11 +247,11 @@ const NewsLatterBox = () => {
               >
                 <stop
                   offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -241,11 +265,11 @@ const NewsLatterBox = () => {
               >
                 <stop
                   offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="#4A6CF7"
                   stopOpacity="0"
                 />
               </linearGradient>
