@@ -57,7 +57,7 @@ const MeghnagarHero = () => {
             <div className="w-full px-4 lg:w-1/2 lg:order-1">
               <div className="relative mx-auto aspect-square max-w-[500px] lg:ml-0">
                 <Image
-                  src="/images/operations/meghnagar-mining.jpg"
+                  src="https://devstrapi-shared.up.railway.app/uploads/meghnagar_mining_beba44bd35.jpg"
                   alt="Meghnagar Mining Operations"
                   fill
                   className="mx-auto max-w-full rounded-lg object-cover shadow-lg"

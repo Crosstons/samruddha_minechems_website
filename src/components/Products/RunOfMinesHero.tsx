@@ -60,7 +60,7 @@ const RunOfMinesHero = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-square max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/products/product-1.jpg"
+                  src="https://devstrapi-shared.up.railway.app/uploads/product_1_f8f9a21434.JPG"
                   alt="Rock Phosphate Run Of Mines"
                   fill
                   className="mx-auto max-w-full rounded-lg object-cover shadow-lg"

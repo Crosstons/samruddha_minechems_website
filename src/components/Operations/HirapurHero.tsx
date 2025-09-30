@@ -57,7 +57,7 @@ const HirapurHero = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-square max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/operations/hirapur-mining.jpg"
+                  src="https://devstrapi-shared.up.railway.app/uploads/hirapur_mining_a8a8f65ee4.jpg"
                   alt="Hirapur Mining Operations"
                   fill
                   className="mx-auto max-w-full rounded-lg object-cover shadow-lg"

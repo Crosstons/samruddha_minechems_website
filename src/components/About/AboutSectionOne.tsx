@@ -52,7 +52,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-25/24 max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/about/about-image-3.jpg"
+                  src="https://devstrapi-shared.up.railway.app/uploads/about_image_3_9eeff1c0a7.JPG"
                   alt="about-image"
                   fill
                   className="mx-auto max-w-full drop-shadow-three lg:mr-0 object-cover"
