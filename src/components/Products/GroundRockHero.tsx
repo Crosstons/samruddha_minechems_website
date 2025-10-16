@@ -12,10 +12,10 @@ const GroundRockHero = () => {
             <div className="w-full px-4 lg:w-1/2">
             <div className="relative mx-auto aspect-square max-w-[500px] lg:ml-0">
                 <Image
-                  src="/images/products/product-1.jpg"
+                  src="https://cms.clubduelz.in/uploads/ground_rock_phosphate_b8d2221dfa.JPG"
                   alt="Rock Phosphate Run Of Mines"
                   fill
-                  className="mx-auto max-w-full rounded-lg object-cover shadow-lg"
+                  className="mx-auto max-w-full rounded-lg object-cover shadow-lg -rotate-90"
                 />
               </div>
             </div>

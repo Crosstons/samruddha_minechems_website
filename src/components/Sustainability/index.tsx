@@ -1,5 +1,6 @@
 import SectionTitle from "../Common/SectionTitle";
 import SingleSustainability from "./SingleSustainability";
+import SustainabilityGallery from "./SustainabilityGallery";
 import sustainabilityData from "./sustainabilityData";
 
 const Sustainability = () => {
@@ -20,6 +21,11 @@ const Sustainability = () => {
           </div>
         </div>
       </section>
+
+      {/* Gallery Section */}
+      <SustainabilityGallery />
+
+
     </>
   );
 };

@@ -12,6 +12,11 @@ const nextConfig = {
         hostname: "devstrapi-shared.up.railway.app",
         port: "",
       },
+      {
+        protocol: "https",
+        hostname: "cms.clubduelz.in",
+        port: "",
+      },
     ],
   },
 };

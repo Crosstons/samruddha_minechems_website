@@ -1,12 +1,36 @@
-"use client";
-
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
+import { Metadata } from "next";
 import "../styles/index.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "Samruddha Minechem - Leading Phosphate Mining Company in India",
+  description: "Samruddha Minechem Private Limited is India's premier phosphate mining company with 45 million tons of rock phosphate reserves across 10 mining leases in Madhya Pradesh. We provide sustainable mining solutions, phosphate processing, and forward integration into phosphate-based products for India's agricultural sector.",
+  keywords: "Samruddha, Samruddha Minechem, Samruddha Minechem Private Limited, phosphate mining company India, rock phosphate mining, phosphate reserves India, mining company Madhya Pradesh, phosphate processing India, sustainable mining, phosphate ecosystem, India phosphate mining, phosphate beneficiation, rock phosphate company, phosphate mining operations, phosphate fertilizer, phosphate products India",
+  authors: [{ name: "Samruddha Minechem Private Limited" }],
+  openGraph: {
+    title: "Samruddha Minechem - Leading Phosphate Mining Company in India",
+    description: "India's premier phosphate mining company with 45 million tons of rock phosphate reserves. Sustainable mining solutions and phosphate processing for India's agricultural needs.",
+    type: "website",
+    locale: "en_IN",
+    siteName: "Samruddha Minechem",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+};
 
 export default function RootLayout({
   children,
@@ -15,19 +39,92 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#d1ab7a" />
+        <link rel="canonical" href="https://samruddha.in" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Samruddha Minechem Private Limited",
+              "alternateName": ["Samruddha Minechem", "Samruddha"],
+              "url": "https://samruddha.in",
+              "logo": "https://samruddha.in/images/logo/logo.svg",
+              "description": "Samruddha Minechem Private Limited is India's premier phosphate mining company with 45 million tons of rock phosphate reserves across 10 mining leases in Madhya Pradesh. We provide sustainable mining solutions and phosphate processing for India's agricultural sector.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "6th Floor, 'A' Block, Shivsagar Estate, Dr. Annie Besant Road, Worli",
+                "addressLocality": "Mumbai",
+                "addressRegion": "Maharashtra",
+                "postalCode": "400018",
+                "addressCountry": "IN"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91-93740-73434",
+                "contactType": "customer service",
+                "email": "yash.parikh@samruddha.in"
+              },
+              "sameAs": [
+                "https://www.linkedin.com/company/samruddha-minechem-private-limited/"
+              ],
+              "industry": "Mining",
+              "foundingDate": "2020",
+              "numberOfEmployees": "50-200",
+              "knowsAbout": [
+                "Phosphate Mining",
+                "Rock Phosphate",
+                "Phosphate Processing",
+                "Sustainable Mining",
+                "Phosphate Beneficiation",
+                "Phosphate Reserves",
+                "Mining Operations",
+                "Phosphate Products"
+              ],
+              "areaServed": {
+                "@type": "Country",
+                "name": "India"
+              },
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Phosphate Mining Services",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Rock Phosphate Mining"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Phosphate Beneficiation"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Phosphate Processing"
+                    }
+                  }
+                ]
+              }
+            })
+          }}
+        />
+      </head>
 
       <body className={`bg-[#FCFCFC] ${inter.className}`}>
-        <Providers>
-          <Header />
-          {children}
-          <Footer />
-          <ScrollToTop />
-        </Providers>
+        <Header />
+        {children}
+        <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );

@@ -29,8 +29,8 @@ const NewsLatterBox = () => {
           <div>
             <h4 className="mb-2 font-semibold text-black">Phone:</h4>
             <p className="text-sm">
-              <a href="tel:+912266619000" className="text-primary hover:underline">
-                +91 22 66619000
+              <a href="tel:+919374073434" className="text-primary hover:underline">
+                +91 93740 73434
               </a>
             </p>
           </div>

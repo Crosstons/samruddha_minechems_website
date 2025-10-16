@@ -9,14 +9,14 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
+              <div className="mb-12 lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logggo.png"
+                    src="/images/logo/logo.svg"
                     alt="logo"
-                    className="w-full"
-                    width={140}
-                    height={30}
+                    width={180}
+                    height={40}
+                    className="h-10 w-auto"
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color">
@@ -95,7 +95,7 @@ const Footer = () => {
                     <span className="font-semibold">Email:</span> yash.parikh@samruddha.in
                   </li>
                   <li className="mb-4 text-base text-body-color">
-                    <span className="font-semibold">Phone:</span> +91 22 66619000
+                    <span className="font-semibold">Phone:</span> +91 93740 73434
                   </li>
                   <li className="mb-4 text-base text-body-color">
                     <span className="font-semibold">Address:</span><br />
