@@ -5,7 +5,7 @@ import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import Leadership from "@/components/Leadership";
+import AbstractLeadership from "@/components/Leadership/AbstractLeadership";
 import Operations from "@/components/Operations";
 import Products from "@/components/Products";
 import Sustainability from "@/components/Sustainability";
@@ -37,7 +37,7 @@ export default function Home() {
       <AboutSectionOne />
       {/* <AboutSectionTwo /> */}
       <Sustainability />
-      <Leadership />
+      <AbstractLeadership />
       <Testimonials />
       <Video />
       <Brands />
