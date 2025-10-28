@@ -18,14 +18,14 @@ const ContactSubmissionsPage = () => {
               />
             </svg>
           </div>
-          
+
           <h1 className="text-3xl font-bold text-gray-900 mb-4">
             Contact Form Submissions
           </h1>
-          
+
           <p className="text-lg text-gray-600 mb-8">
-            We've integrated with Formspree for better contact form management. 
-            All submissions are now handled through Formspree's professional dashboard.
+            We have integrated with Formspree for better contact form management.
+            All submissions are now handled through Formspree&apos;s professional dashboard.
           </p>
 
           <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
