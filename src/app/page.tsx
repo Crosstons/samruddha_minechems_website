@@ -39,7 +39,7 @@ export default function Home() {
       <Sustainability />
       <AbstractLeadership />
       <Testimonials />
-      <Video />
+      {/* <Video /> */}
       <Brands />
       <Contact />
     </>
