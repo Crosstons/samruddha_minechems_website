@@ -52,7 +52,7 @@ export default function Home() {
       <AbstractLeadership />
       {/* <Testimonials /> */}
       {/* <Video /> */}
-      <Brands />
+      {/* <Brands /> */}
       <Contact />
     </>
   );

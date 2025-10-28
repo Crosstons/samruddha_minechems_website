@@ -51,14 +51,14 @@ const NewsLatterBox = () => {
         </div>
       </div>
       <div>
-        <h4 className="mb-4 font-semibold text-black">Key Clients:</h4>
+        {/* <h4 className="mb-4 font-semibold text-black">Key Clients:</h4>
         <ul className="space-y-2 text-sm text-body-color">
           <li>• Gujarat State Fertilizers & Chemicals (GSFC)</li>
           <li>• Aarti Industries Limited</li>
           <li>• Panoli Intermediates</li>
           <li>• Krishna Phoschem Limited</li>
           <li>• Agro Phos India Limited</li>
-        </ul>
+        </ul> */}
       </div>
 
       <div>
