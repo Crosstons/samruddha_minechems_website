@@ -89,7 +89,7 @@ const DetailedLeadership = () => {
                 <div className="mx-auto max-w-4xl space-y-6">
                   <p className="text-lg leading-relaxed text-body-color">
                     At Samruddha Minechem, our leadership team is united by a shared commitment to
-                    solving India's phosphate challenge through strategic vision, operational excellence,
+                    solving India&apos;s phosphate challenge through strategic vision, operational excellence,
                     and sustainable practices. Each leader brings unique expertise that collectively
                     drives our mission forward.
                   </p>

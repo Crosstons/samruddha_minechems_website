@@ -76,7 +76,7 @@ const CompanyInfo = () => {
             </h3>
             <div className="mx-auto max-w-2xl rounded-2xl bg-gradient-to-r from-primary/10 to-primary/5 p-8">
               <p className="text-2xl font-bold text-primary">
-                "To Solve India's Phosphate Problem"
+                To Solve India&apos;s Phosphate Problem
               </p>
             </div>
           </div>
@@ -105,7 +105,7 @@ const CompanyInfo = () => {
                   Vision
                 </h3>
                 <p className="text-base leading-relaxed text-body-color">
-                  To be India's most trusted and integrated Rock Phosphate company,
+                  To be India&apos;s most trusted and integrated Rock Phosphate company,
                   enabling secure fertilizer and chemical supply chains.
                 </p>
               </div>

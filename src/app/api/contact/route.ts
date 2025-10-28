@@ -75,7 +75,7 @@ export async function POST(request: NextRequest) {
       email: email.trim().toLowerCase(),
       message: message.trim(),
       timestamp: new Date().toISOString(),
-      ip: request.ip || request.headers.get('x-forwarded-for') || 'unknown'
+      ip: request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || 'unknown'
     };
 
     // Save submission
