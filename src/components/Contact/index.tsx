@@ -39,15 +39,24 @@ const Contact = () => {
     setStatus({ type: 'loading', message: 'Sending message...' });
 
     try {
-      const response = await fetch('/api/contact', {
+      // Formspree endpoint
+      const formspreeEndpoint = process.env.NEXT_PUBLIC_FORMSPREE_ID 
+        ? `https://formspree.io/f/${process.env.NEXT_PUBLIC_FORMSPREE_ID}`
+        : 'https://formspree.io/f/xwpwlrwo'; // Your Formspree form ID
+
+      const response = await fetch(formspreeEndpoint, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          _subject: `New Contact Form Submission from ${formData.name}`,
+          _replyto: formData.email,
+        }),
       });
-
-      const data = await response.json();
 
       if (response.ok) {
         setStatus({
@@ -56,9 +65,10 @@ const Contact = () => {
         });
         setFormData({ name: '', email: '', message: '' });
       } else {
+        const errorData = await response.json().catch(() => ({}));
         setStatus({
           type: 'error',
-          message: data.error || 'Something went wrong. Please try again.'
+          message: errorData.error || 'Something went wrong. Please try again.'
         });
       }
     } catch (error) {
