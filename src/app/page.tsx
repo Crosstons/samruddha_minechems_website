@@ -14,15 +14,27 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Samruddha Minechem Private Limited - India's Premier Phosphate Mining Company",
-  description: "Samruddha Minechem Private Limited is India's leading phosphate mining company with 45 million tons of rock phosphate reserves across 10 mining leases in Madhya Pradesh. We specialize in sustainable phosphate mining, beneficiation, and forward integration into phosphate-based products for India's agricultural sector.",
-  keywords: "Samruddha Minechem, Samruddha Minechem Private Limited, phosphate mining company India, rock phosphate mining Madhya Pradesh, phosphate reserves India, phosphate processing company, phosphate beneficiation India, phosphate fertilizer company, phosphate mining operations, sustainable phosphate mining, phosphate ecosystem India, phosphate products India, phosphate mining company, rock phosphate reserves, phosphate mining leases, phosphate mining Jhabua, phosphate mining Sagar",
+  title: "Samruddha Minechem - Solving India's Phosphate Problem | Leading Rock Phosphate Mining Company",
+  description: "Samruddha Minechem Private Limited is India's premier phosphate mining company with 45 million tons of rock phosphate reserves across 10 mining leases in Madhya Pradesh. Building an integrated rock phosphate ecosystem for a self-reliant India through sustainable mining, beneficiation, and forward integration.",
+  keywords: "Samruddha Minechem, Samruddha, phosphate mining India, rock phosphate mining, phosphate problem India, phosphate reserves Madhya Pradesh, sustainable mining, phosphate beneficiation, BRP production, phosphate fertilizer, mining company India, phosphate ecosystem, Jhabua mining, Sagar mining, phosphate processing, rock phosphate supplier India, mining operations Madhya Pradesh",
+  alternates: {
+    canonical: "https://samruddhaminechem.com",
+  },
   openGraph: {
-    title: "Samruddha Minechem Private Limited - India's Premier Phosphate Mining Company",
-    description: "Leading phosphate mining company with 45 million tons of rock phosphate reserves. Sustainable mining solutions and phosphate processing for India's agricultural needs.",
+    title: "Samruddha Minechem - Solving India's Phosphate Problem",
+    description: "India's premier phosphate mining company with 45 million tons of rock phosphate reserves. Building an integrated phosphate ecosystem for a self-reliant India.",
     type: "website",
+    url: "https://samruddhaminechem.com",
     locale: "en_IN",
     siteName: "Samruddha Minechem",
+    images: [
+      {
+        url: "https://samruddhaminechem.com/images/logo/logo.svg",
+        width: 1200,
+        height: 630,
+        alt: "Samruddha Minechem - Leading Phosphate Mining Company in India",
+      },
+    ],
   },
 };
 

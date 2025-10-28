@@ -8,16 +8,35 @@ import "../styles/index.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Samruddha Minechem - Leading Phosphate Mining Company in India",
+  title: "Samruddha Minechem - India's Leading Phosphate Mining Company | Rock Phosphate Mining & Processing",
   description: "Samruddha Minechem Private Limited is India's premier phosphate mining company with 45 million tons of rock phosphate reserves across 10 mining leases in Madhya Pradesh. We provide sustainable mining solutions, phosphate processing, and forward integration into phosphate-based products for India's agricultural sector.",
-  keywords: "Samruddha, Samruddha Minechem, Samruddha Minechem Private Limited, phosphate mining company India, rock phosphate mining, phosphate reserves India, mining company Madhya Pradesh, phosphate processing India, sustainable mining, phosphate ecosystem, India phosphate mining, phosphate beneficiation, rock phosphate company, phosphate mining operations, phosphate fertilizer, phosphate products India",
+  keywords: "Samruddha Minechem, Samruddha, phosphate mining India, rock phosphate mining, phosphate reserves, mining company Madhya Pradesh, phosphate processing, sustainable mining, phosphate beneficiation, BRP production, phosphate fertilizer, mining operations India, phosphate ecosystem, Jhabua mining, Sagar mining, phosphate products India, mining company Mumbai, rock phosphate supplier",
   authors: [{ name: "Samruddha Minechem Private Limited" }],
+  metadataBase: new URL('https://samruddhaminechem.com'),
+  alternates: {
+    canonical: 'https://samruddhaminechem.com',
+  },
   openGraph: {
-    title: "Samruddha Minechem - Leading Phosphate Mining Company in India",
+    title: "Samruddha Minechem - India's Leading Phosphate Mining Company",
     description: "India's premier phosphate mining company with 45 million tons of rock phosphate reserves. Sustainable mining solutions and phosphate processing for India's agricultural needs.",
     type: "website",
     locale: "en_IN",
+    url: "https://samruddhaminechem.com",
     siteName: "Samruddha Minechem",
+    images: [
+      {
+        url: "https://samruddhaminechem.com/images/logo/logo.svg",
+        width: 1200,
+        height: 630,
+        alt: "Samruddha Minechem - Leading Phosphate Mining Company in India",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Samruddha Minechem - India's Leading Phosphate Mining Company",
+    description: "India's premier phosphate mining company with 45 million tons of rock phosphate reserves. Sustainable mining solutions for India's agricultural needs.",
+    images: ["https://samruddhaminechem.com/images/logo/logo.svg"],
   },
   robots: {
     index: true,
@@ -29,6 +48,9 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  verification: {
+    google: "your-google-verification-code", // Add your Google Search Console verification code
   },
 };
 
@@ -42,7 +64,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#d1ab7a" />
-        <link rel="canonical" href="https://samruddha.in" />
+        <link rel="canonical" href="https://samruddhaminechem.com" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -51,8 +73,8 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "Samruddha Minechem Private Limited",
               "alternateName": ["Samruddha Minechem", "Samruddha"],
-              "url": "https://samruddha.in",
-              "logo": "https://samruddha.in/images/logo/logo.svg",
+              "url": "https://samruddhaminechem.com",
+              "logo": "https://samruddhaminechem.com/images/logo/logo.svg",
               "description": "Samruddha Minechem Private Limited is India's premier phosphate mining company with 45 million tons of rock phosphate reserves across 10 mining leases in Madhya Pradesh. We provide sustainable mining solutions and phosphate processing for India's agricultural sector.",
               "address": {
                 "@type": "PostalAddress",
