@@ -40,16 +40,6 @@ export const leadershipData: Leader[] = [
     background: "Since moving back to India in 2023, he has been actively involved in Samruddha Minechem, contributing to business development, finance, sales, and the company's strategic initiatives.",
     image: "/images/leadership/yash-parikh.jpeg"
   },
-  {
-    id: 4,
-    name: "Mr. Ashish Bahadur",
-    position: "Director",
-    age: 58,
-    education: "Graduate in Arts",
-    experience: "Over 30 years of diverse business experience",
-    background: "Specializes in Business Research and Development, focusing on project-specific assignments. His expertise lies in managing project implementation, particularly in legal, compliance, and government affairs, where he plays a critical role in supporting the company's expansion.",
-    image: "/images/leadership/ashish-bahadur.jpeg"
-  }
 ];
 
 export default leadershipData;

@@ -14,12 +14,12 @@ const AbstractLeadership = () => {
             center
           />
 
-          <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
             {leadershipData.map((leader) => (
               <div key={leader.id} className="w-full">
                 <div className="wow fadeInUp text-center" data-wow-delay=".15s">
                   <div className="mb-6 flex justify-center">
-                    <div className="relative h-[150px] w-[150px] overflow-hidden rounded-full shadow-lg">
+                    <div className="relative h-[450px] w-[300px] overflow-hidden rounded-xl shadow-lg">
                       <Image
                         src={leader.image}
                         alt={leader.name}

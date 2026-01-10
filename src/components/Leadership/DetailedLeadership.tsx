@@ -1,5 +1,4 @@
 import Image from "next/image";
-import SectionTitle from "../Common/SectionTitle";
 import leadershipData from "./leadershipData";
 
 const DetailedLeadership = () => {
@@ -18,7 +17,7 @@ const DetailedLeadership = () => {
               >
                 {/* Leader Image */}
                 <div className="w-full lg:w-1/3">
-                  <div className="relative mx-auto h-[300px] w-[300px] overflow-hidden rounded-2xl shadow-lg">
+                  <div className="relative mx-auto h-[450px] w-[300px] overflow-hidden rounded-2xl shadow-lg">
                     <Image
                       src={leader.image}
                       alt={leader.name}
